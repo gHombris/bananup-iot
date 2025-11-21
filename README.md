@@ -85,5 +85,4 @@ Assista à demonstração completa da solução, incluindo o funcionamento do c�
 ---
 
 ##  Estrutura do Repositório
-* `/src`: Código fonte C++ (`.ino`) comentado para o ESP32.
-
+* `/src`: Código fonte C++ (`.ino`) comentado para o ESP32
