@@ -86,4 +86,3 @@ Assista à demonstração completa da solução, incluindo o funcionamento do c�
 
 ##  Estrutura do Repositório
 * `/src`: Código fonte C++ (`.ino`) comentado para o ESP32.
-* `diagram.json`: Arquivo de configuração do hardware para o Wokwi.
