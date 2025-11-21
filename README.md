@@ -29,7 +29,7 @@ Visão geral da montagem do circuito com ESP32, sensor e atuador.
 * **LED Vermelho:** Simula o atuador (Bomba de Irrigação).
 
 ### Explicação Técnica: MQTT e Endpoints
-Utilizamos o protocolo **MQTT** (Message Queuing Telemetry Transport) devido à sua leveza e eficiência em redes móveis rurais. A comunicação ocorre através de um Broker Público (`test.mosquitto.org`).
+Utilizamos o protocolo **MQTT** (Message Queuing Telemetry Transport) devido à sua leveza e eficiência em redes móveis rurais. A comunicação ocorre através de um Broker Público (`https://www.hivemq.com/`).
 
 **Tópicos MQTT Utilizados:**
 * `bananup/umidade`: O ESP32 publica o valor percentual da umidade (0-100%) lido pelo sensor.
@@ -80,10 +80,10 @@ No Library Manager do Arduino IDE ou no `library.txt` do Wokwi, adicione:
 ##  Vídeo Explicativo
 Assista à demonstração completa da solução, incluindo o funcionamento do código e da plataforma:
 
-**[LINK DO VÍDEO NO YOUTUBE]()**
+**[LINK DO VÍDEO NO YOUTUBE](https://youtu.be/WtTXCrx0fRw)**
 
 ---
 
 ##  Estrutura do Repositório
 * `/src`: Código fonte C++ (`.ino`) comentado para o ESP32.
-* `diagram.json`: Arquivo de configuração do hardware para o Wokwi.
+
